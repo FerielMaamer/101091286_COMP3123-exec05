@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const router = express.Router();
 
+let fs = require('fs')
+
 /*
 - Create new html file name home.html 
 - add <h1> tag with message "Welcome to ExpressJs Tutorial"
